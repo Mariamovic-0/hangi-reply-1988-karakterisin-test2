@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
   <title>Karakter Testi</title>
   <style>
     .question { margin: 20px 0; }
@@ -19,6 +20,10 @@
 // Butona tıklama işlevi
 document.getElementById("myButton").addEventListener("click",function() {
 alert("Butona tıklandı!");
+});
+  document.getElementById("button_my_id").addEventListener("touchend",function() {
+    alert("Butona dokunuldu!");
+  });
 </script>
 </body>
 
